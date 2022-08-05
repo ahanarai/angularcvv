@@ -1,0 +1,28 @@
+.my-icon {
+    background-color: #facd48;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.iconcol {
+    width: 24px;
+    min-width: 24px;
+}
+
+.container {
+    padding: 15px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.content-column {
+    padding-left: 8px;
+}
+
+@media print {
+    .col {
+        width: 50%;
+        max-width: 50%;
+    }
+}

@@ -1,0 +1,18 @@
+
+<div class="contacts">
+    <div *ngIf="show_private_details">
+        <span>{{phone_number}}</span>
+        <span class="separator"> | </span>
+        <a href="mailto:{{formEmail()}}">
+            {{formEmail()}}
+        </a>
+        <span class="separator"> | </span>
+    </div>
+    <a href="http://{{github}}">
+        {{github}}
+    </a>
+    <span class="separator"> | </span>
+    <a href="http://{{my_website}}">
+        {{my_website}}
+    </a>
+</div>

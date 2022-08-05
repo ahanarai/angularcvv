@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+a {
+    color: black;
+}
+
+body {
+    font-size: 15px;
+}
+
+ul {
+    margin: 0px;
+}
